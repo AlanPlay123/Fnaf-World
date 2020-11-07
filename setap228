@@ -1,0 +1,13 @@
+def zvezds():
+    strokeWeight(random(0,20))
+    stroke(random(245,255))
+    point(random(0,800),random(0,800))
+
+    
+def setup():
+    size(800,400)
+    background(0)
+
+def draw():
+    zvezds()
+
